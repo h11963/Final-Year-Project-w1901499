@@ -49,7 +49,7 @@ const CreateListing = () => {
   data.append('type', formData.type);
   data.append('artist', auth.user.name); // This is what you have now
   
-  // THIS IS WHAT WAS MISSING:
+  
   data.append('owner', myId); 
   data.append('user', myId);
 
